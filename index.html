@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday!</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="w3-styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <script src="confetti.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script><script>confetti.start()</script>
     <div class="header-container">
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+            <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+            <a href="#" class="w3-bar-item w3-button" onclick="confetti.stop()">Stop Confetti</a>
+            <a href="#" class="w3-bar-item w3-button" onclick="confetti.start()">Restart Confetti</a>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+        <button class="w3-button w3-xxxlarge w3-left" onclick="w3_open()">☰</button>
         <div class="header">Happy Birthday!</div>
     </div>
     <br>
