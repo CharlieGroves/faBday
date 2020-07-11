@@ -290,7 +290,7 @@ a {
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: inherit;
     text-align: center;
     cursor: pointer;
@@ -1316,8 +1316,8 @@ a {
 }
 .w3-black,
 .w3-hover-black:hover {
-    color: #fff!important;
-    background-color: #000!important
+    color: #000!important;
+    background-color: #fff!important
 }
 .w3-grey,
 .w3-hover-grey:hover,
