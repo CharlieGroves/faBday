@@ -23,3 +23,7 @@ function resumeFireworks() {
   b.classList.remove('paused');
   c.classList.remove('paused');
 }
+
+function loadPhoto() {
+  window.location = './photo.html'
+}

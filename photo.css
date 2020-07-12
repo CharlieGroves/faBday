@@ -1,0 +1,6 @@
+body {
+    background-image: url('./background.png');
+    background-size: 1425px 801.56px;
+    min-height: 250vh;
+    min-width: 250vh;
+}

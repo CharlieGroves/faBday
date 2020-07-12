@@ -55,7 +55,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background-image: url('./background.png');
+    background-size: 1425px 801.56px;
     overflow: hidden; }
   
   .pyro > .before, .pyro > .after {
