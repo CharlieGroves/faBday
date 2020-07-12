@@ -31,3 +31,7 @@ function loadPhoto() {
 function loadP() {
   window.location = './p.html';
 }
+
+function loadBday() {
+  window.location = './bday.jpg'
+}
