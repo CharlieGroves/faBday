@@ -33,5 +33,5 @@ function loadP() {
 }
 
 function loadBday() {
-  window.location = './bday.jpg'
+  window.location = './bday.html'
 }
