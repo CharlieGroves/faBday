@@ -6,15 +6,23 @@
     <title>Happy Birthday!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="w3-styles.css">
+    <link rel="stylesheet" href="fireworks.css">
     <script src="script.js"></script>
+    <script src="fireworks.js"></script>
 </head>
 <body>
+    <div id='1' class="pyro">
+        <div id='2' class="before"></div>
+        <div id='3' class="after"></div>
+    </div>
     <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script><script>confetti.start()</script>
     <div class="header-container">
         <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
             <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
             <a class="w3-bar-item w3-xlarge w3-button w3-black" onclick="confetti.stop()">Stop Confetti</a>
             <a class="w3-bar-item w3-xlarge w3-button w3-black" onclick="confetti.start()">Restart Confetti</a>
+            <a class="w3-bar-item w3-xlarge w3-button w3-black" onclick="pauseFireworks()">Pause Fireworks</a>
+            <a class="w3-bar-item w3-xlarge w3-button w3-black" onclick="resumeFireworks()">Resume Fireworks</a>
         </div>
         <button class="w3-button w3-xxxxlarge white w3-left" onclick="w3_open()">☰</button>
         <div class="header">Happy Birthday!</div>
@@ -28,10 +36,14 @@
             <source src="videos/2.mp4">
         </video>
         <video controls>
-            <source src="videos/placeholder.mp4">
+            <source src="videos/3.mp4">
         </video>
+        <div id='1' class="pyro">
+            <div id='2' class="before"></div>
+            <div id='3' class="after"></div>
+        </div>
         <video controls>
-            <source src="videos/placeholder.mp4">
+            <source src="videos/4.mp4">
         </video>
         <video controls>
             <source src="videos/placeholder.mp4">
