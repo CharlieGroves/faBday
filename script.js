@@ -25,5 +25,9 @@ function resumeFireworks() {
 }
 
 function loadPhoto() {
-  window.location = './photo.html'
+  window.location = './photo.html';
+}
+
+function loadP() {
+  window.location = './p.html';
 }
